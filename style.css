@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+p {
+  font-size: 18px;
+}
+
+.boby {
+  background-color: white;
+  padding: 2rem 6rem;
+  justify-content: left;
+}
+
+.first_div {
+  background-color: #faeee2;
+  flex: 1;
+  padding: 2rem ;
+  /* margin: 2rem 6rem; */
+}
+h3 {
+  font-size: xx-large;
+}
+
+img {
+  width: 12rem;
+  margin-top: 1rem;
+}
+
+.second_div {
+  background-color: #ffcc69;
+  flex: 1;
+}
+
+h3 {
+  font-size: xx-large;
+}
+
+img {
+  width: 15rem;
+  margin-top: 2.5rem;
+}
+
+.third_div {
+  background-color: #7651dc;
+  flex: 2;
+  display: grid;
+}
+
+.ten_x {
+  color: #fbc86d;
+}
+
+h2 {
+  text-align: center;
+  font-size: xxx-large;
+}
+
+p {
+  text-align: center;
+}
+
+img {
+  width: 10rem;
+  margin: 1.5rem 0 0.5rem 0;
+  justify-self: center;
+}
+
+.fourth_div {
+  background-color: aliceblue;
+  flex: 1;
+}
+
+h4 {
+  font-size: xx-large;
+  font-weight: 500;
+}
+
+img {
+  width: 15rem;
+}
+
+.fifth_div {
+  background-color: #ffcb65;
+  flex: 1;
+}
+
+h4 {
+  font-size: x-large;
+}
+
+img {
+  width: 10rem;
+}
+
+.sixth_div {
+  background-color: aliceblue;
+  flex: 1;
+  height: fit-content;
+}
+
+.fifty_six {
+font-size: xx-large;
+  text-align: center;
+  font-weight: 700;
+}
+
+img {
+  width: 12rem;
+}
+
+.seventh_div {
+  background-color: #7651dc;
+  /* flex: 2; */
+  flex-grow: 2;
+  flex-shrink: 0;
+  height: fit-content;
+  max-width: fit-content;
+}
+
+h3 {
+  font-size: x-large;
+}
+
+img {
+  width: 12rem;
+  float: left;
+}
+
+.eighth_div {
+  background-color: #dcd1fc;
+  flex: 1;
+  /* height: fit-content; */
+  height: 34rem;
+  margin-top: 10px;
+}  
+p{
+    font-size: 20px;
+  }
+
+
+h3 {
+  font-size: xx-large;
+}
+
+img {
+  height: fit-content;
+  margin: 0.6rem;
+} 
+
+
+.quicker {
+  color: #af93e3;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.content {
+  width: 50%;
+  display: flex;
+  gap: 1rem;
+}
+
+.third_div,
+.seventh_div {
+  color: white;
+}
+
+.first_div,
+.second_div,
+.third_div,
+.fourth_div,
+.fifth_div,
+.sixth_div,
+.seventh_div,
+.eighth_div {
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.first_box {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.second_box {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* height: 50%; */
+}
+
+.div_box {
+  display: flex;
+  gap: 1rem;
+}
+
+.third_box {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: end;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media(max-width:680px){
+  .content{
+    flex-direction: column;
+    display: flex;
+    width: 90%;
+}
+
+.div_box{
+  display: flex;
+  flex-direction: column;
+}
+
+.third_box{
+  display: flex;
+  flex-direction: column;
+}
+
+.first_box div,.second_div> div, .div_box > .div,.third_box div{
+  width: 100%;
+}
+
+.first_div >img{
+  width: 100%;
+}
+
+.second_div >img{
+  width: 100%;
+}
+
+.third_div >img{
+  width: 100%;
+}
+.fourth_div >img{
+  width: 100%;
+}
+.fifth_div >img{
+  width: 100%;
+}
+
+.sixth_div >img{
+  width: 100%;
+}
+
+.seventh_div >img{
+  width: 100%;
+}
+.eighth_div >img{
+  width: 100%;
+}
+}
